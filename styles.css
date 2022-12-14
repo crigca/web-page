@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+section#hero{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 80%;
+    height: 1800px;
+    
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightgrey;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 100px;
+    margin-right: 20px;
+    padding: 10px 10px;
+    background-color: rgb(212, 206, 193);
+}
+
+
+.ex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aliceblue;
+    
+}
+
+.cv {
+    
+    border: 3px solid black;  
+    width: 400px;
+    margin: 13px;  
+    border-radius: 15px;  
+     
+}
+
+.cv img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+section#contact{
+    background-color: gray;
+    display: flex;
+    max-height: 80%;
+    height: 1000px;
+    
+}
+
+section#contact h2{
+    text-transform: uppercase;
+    position: relative;
+    top: 50;
+    left: 450;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    
+}
+
+.lnk{
+    font-style: none;
+    font-size: large;
+    padding: 50px;
+    background-color: rgb(88, 85, 99);
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.lnk:hover{
+    background-color: transparent;
+    border: 3px solid red;
+    color: red;
+}
+
+
+
+
+   
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
